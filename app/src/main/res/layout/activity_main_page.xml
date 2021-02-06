@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2D2D32"
+    tools:context=".MainPage">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:id="@+id/travislayout"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:paddingTop="5dp"
+            android:id="@+id/travis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            tools:layout_editor_absoluteX="18dp"
+            tools:layout_editor_absoluteY="18dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/travistext"
+            android:layout_width="250dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="20dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="@string/travis_bio"
+            android:textColor="@color/white"
+            tools:layout_editor_absoluteX="146dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/travispage"
+        app:layout_constraintTop_toBottomOf="@id/travislayout"
+        android:text="@string/discography"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/travispage"
+        android:orientation="horizontal"
+        android:layout_marginTop="4dp"
+        android:id="@+id/kanyelayout">
+
+        <ImageView
+            android:paddingTop="5dp"
+            android:id="@+id/kanye"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            tools:layout_editor_absoluteX="18dp"
+            tools:layout_editor_absoluteY="18dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/kanyetext"
+            android:layout_width="250dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="20dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="@string/kanye_bio"
+            android:textColor="@color/white"
+            tools:layout_editor_absoluteX="146dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <Button
+        android:id="@+id/kanyepage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/kanyelayout"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/discography" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="4dp"
+        android:id="@+id/kdotlayout"
+        app:layout_constraintTop_toBottomOf="@id/kanyepage">
+
+        <ImageView
+            android:paddingTop="5dp"
+            android:id="@+id/kdot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            tools:layout_editor_absoluteX="18dp"
+            tools:layout_editor_absoluteY="18dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/kdottext"
+            android:layout_width="250dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="20dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="@string/kdotbio"
+            android:textColor="@color/white"
+            tools:layout_editor_absoluteX="146dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/kdotlayout"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/kdotpage"
+        android:text="@string/discography"/>
+
+    <View
+        app:layout_constraintTop_toBottomOf="@id/kdotpage"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#451895"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="663dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/divider2"
+        android:layout_marginTop="4dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:id="@+id/requestButton"
+        android:text="@string/request_artist"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

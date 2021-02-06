@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2D2D32"
+    tools:context=".TravisPage">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:orientation="vertical"
+        android:id="@+id/firstlay"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="43dp">
+
+        <TextView
+            android:id="@+id/KdotText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:paddingStart="37dp"
+            android:paddingEnd="10dp"
+            android:text="Kendrick Lamar Discography"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        app:layout_constraintTop_toBottomOf="@id/firstlay"
+        android:layout_width="match_parent"
+        android:id="@+id/secondlay"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:srcCompat="@tools:sample/avatars"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="50dp"
+            android:id="@+id/section80"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:srcCompat="@tools:sample/avatars"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="50dp"
+            android:id="@+id/gkmc"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            tools:srcCompat="@tools:sample/avatars"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="50dp"
+            android:id="@+id/tpab"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/secondlay"
+        android:orientation="horizontal"
+        android:id="@+id/buttonlay1">
+
+        <Button
+            android:id="@+id/section80link"
+            android:layout_width="110dp"
+            android:textSize="10sp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="13dp"
+            android:text="@string/section_80"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/secondlay"
+        android:orientation="horizontal"
+        android:id="@+id/buttonlay2">
+
+        <Button
+            android:id="@+id/gkmclink"
+            android:layout_width="100dp"
+            android:textSize="8sp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="153dp"
+            android:text="good kid, m.a.a.d city"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/secondlay"
+        android:orientation="horizontal"
+        android:id="@+id/buttonlay3">
+
+        <Button
+            android:id="@+id/tpablink"
+            android:layout_width="110dp"
+            android:textSize="10sp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="277dp"
+            android:text="to pimp a butterfly"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        app:layout_constraintTop_toBottomOf="@id/secondlay"
+        android:layout_height="wrap_content"
+        android:id="@+id/thirdlay"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:srcCompat="@tools:sample/avatars"
+            android:layout_marginStart="90dp"
+            android:layout_marginTop="50dp"
+            android:id="@+id/uu"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:srcCompat="@tools:sample/avatars"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="50dp"
+            android:id="@+id/damn"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/thirdlay"
+        android:orientation="horizontal"
+        android:id="@+id/buttonlay4">
+
+        <Button
+            android:id="@+id/uulink"
+            android:layout_width="110dp"
+            android:textSize="10sp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:text="untitled unmastered."/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/thirdlay"
+        android:orientation="horizontal"
+        android:id="@+id/buttonlay5">
+
+        <Button
+            android:id="@+id/damnlink"
+            android:layout_width="100dp"
+            android:textSize="8sp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="240dp"
+            android:text="damn."/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

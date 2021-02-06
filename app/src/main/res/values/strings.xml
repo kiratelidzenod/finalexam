@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">finals1</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="repeat_password">Repeat password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="hello_user">Welcome!</string>
+    <string name="log_in">Log in</string>
+    <string name="travis_bio">Jacques Berman Webster II known professionally as Travis Scott is an American rapper, singer, songwriter, and record producer. His stage name is the namesake of a favorite uncle combined with the first name of one of his inspirations, Kid Cudi whose real name is Scott Mescudi.</string>
+    <string name="discography">Discography</string>
+    <string name="kanye_bio">Kanye West is a Grammy Award-winning rapper and record producer and fashion designer. Outspoken and prone to controversy, he became additional celebrity fodder with his marriage to Kim Kardashian.</string>
+    <string name="kdotbio">Kendrick Lamar is an award-winning rapper and songwriter best known for his innovative take on life in Southern California as well as for his affiliation with rap star and super-producer Dr. Dre.</string>
+    <string name="request_artist">Request Artist</string>
+    <string name="travisdiscography">Travis Scott Discography</string>
+    <string name="owl_pharaoh">Owl pharaoh</string>
+    <string name="kanye_west_discography">Kanye West Discography</string>
+    <string name="section_80">section.80</string>
+</resources>

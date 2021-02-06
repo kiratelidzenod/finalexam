@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "763360988481",
+    "project_id": "imushave-8edc6",
+    "storage_bucket": "imushave-8edc6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:763360988481:android:c0c5525e3368326420e5c0",
+        "android_client_info": {
+          "package_name": "com.example.finals1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "763360988481-ijkvn07ld4ie2bm2t0h3k37s44fnt973.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIjGpo36oFS7jtOIr3v3cj7DXQAxBUShk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "763360988481-ijkvn07ld4ie2bm2t0h3k37s44fnt973.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
